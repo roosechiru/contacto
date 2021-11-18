@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Mail</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js"></script>
+    <link rel="icon" type="image/png" href="img/icons8-important-mail-100.png"gif.gif>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form action="https://formspree.io/f/xgergdvg" method="POST">
+                <div class="form-group">
+                    <label for="firstname">Primer Nombre</label>
+                    <input type="text" id="firstname" name="Primer Nombre">
+                </div>
+                <div class="form-group">
+                    <label class="lastname">Apellido</label>
+                    <input type="text" id="lastname" name="Apellido">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo</label>
+                    <input type="email" id="email" name="Correo">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div id="status" class="enviado">
+            Enviado
+        </div>
+    </section>
+</body>
+</html>
